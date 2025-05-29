@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --dark-navy: #001219;
+  --ocean-blue: #005F73;
+  --sea-teal: #0A9396;
+  --mint: #94D2BD;
+  --sand: #E9D8A6;
+  --sun-yellow: #EE9B00;
+  --orange-earth: #CA6702;
+  --sunset-red: #BB3E03;
+  --deep-red: #AE2012;
+  --brick-red: #9B2226;
+
+  --font-heading: 'Atma', cursive;
+  --font-body: 'Open Sans', sans-serif;
+
+  --primary-color: var(--sea-teal);
+  --accent-color: var(--sun-yellow);
+  --background-color: var(--sand);
+  --text-color: var(--dark-navy);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--font-heading);
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+  font-family: var(--font-heading);
+  margin-bottom: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.logo {
+  height: 8rem;
+  width: auto;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 80px;
+}
+
+#search-section {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+/*#country-info {
+  margin-top: 1rem;
+  background: #fefae0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}*/
+
+#country-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+#country-input {
+  padding: 0.6rem 1rem;
+  border: 2px solid #0a9396;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: #fefae0;
+  transition: all 0.3s ease;
+  width: 250px;
+  font-family: var(--font-heading);
+}
+
+#country-input:focus {
+  outline: none;
+  border-color: #ee9b00;
+  box-shadow: 0 0 5px #ee9b00;
+}
+
+#country-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #ee9b00;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: "Atma", cursive;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#country-form button:hover {
+  background-color: #ca6702;
+}
+
+.country-photo {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#map {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-tooltip.country-label {
+  background: transparent;
+  font-family: var(--font-heading);
+  border: none;
+  box-shadow: none;
+  color: #222;
+  font-weight: bold;
+  font-size: 11px;
+  pointer-events: none;
+}
+
+.leaflet-tooltip.country-label::before {
+  display: none !important;
+  /* 👈 This removes the arrow */
+}
+
+footer {
+  background-color: var(--sun-yellow);
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
