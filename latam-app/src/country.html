@@ -1,34 +1,119 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Country Details</title>
+    <title data-translate="country_title">Country Details</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="./images/logo.png" alt="Latinoamérica Learn & Go logo" class="logo" />
-        <a href="index.html">Back</a>
-        <h1 id="country-name">Country Name</h1>
+      <div class="header-wrapper">
+        <div class="back-button">
+          <a href="index.html" data-translate="back_button">← Back</a>
+        </div>
+        <form id="country-form">
+          <input
+            type="text"
+            id="country-input"
+            placeholder="Pick your next destination!"
+            required
+            data-translate-placeholder="input_placeholder"
+          />
+          <button type="submit" data-translate="form_button">Let's Go</button>
+        </form>
+        <div class="brand-center">
+          <img
+            src="/images/logo.png"
+            alt="Latinoamérica Learn & Go logo"
+            class="logo"
+          />
+          <h1 data-translate="site_title">Latinoamérica Learn & Go</h1>
+        </div>
+      </div>
+      <button
+        id="translate-toggle"
+        class="translate-btn"
+        data-translate="toggle_button"
+      >
+        🌐 Español
+      </button>
     </header>
+
     <main>
-        <div id="country-map" style="height: 400px; margin: 2rem 0;"></div>
-        <section id="quick-facts"></section>
-        <section id="travel-tips"></section>
-        <img id="country-image" alt="Landscape of country">
-        <button id="add-to-wishlist"> Wishlist</button>
+      <h1 id="country-title" class="country-heading"></h1>
+      <button id="add-to-wishlist" data-translate="wishlist_button">
+        Add this destination to my Travel Wishlist
+      </button>
+
+      <section id="hero-images">
+        <div class="hero-img" id="hero-img-1"></div>
+        <div class="hero-img" id="hero-img-2"></div>
+        <div class="hero-img" id="hero-img-3"></div>
+      </section>
+
+      <section class="country-notes">
+        <div class="country-note" id="country-quick-facts">
+          <h2 data-translate="quick_facts_heading">Quick Facts</h2>
+          <div id="quick-facts-content"></div>
+        </div>
+
+        <div class="country-note1">
+          <h2 data-translate="news_heading">Relevant News</h2>
+          <ul id="news-list"></ul>
+        </div>
+
+        <div class="country-note2">
+          <h2 data-translate="weather_heading">Weather Forecast</h2>
+          <div id="weather-forecast"></div>
+        </div>
+      </section>
+
+      <div class="highlights">
+        <h2 data-translate="top_5_heading">
+          Top 5 Must-Visit Cities & Their Highlights
+        </h2>
+        <p data-translate="top_5_description">
+          Get ready to explore the heart of each country! In this table, you’ll
+          find detailed information about the top five cities you won’t want to
+          miss. For each city, we’ve highlighted one or more must-see
+          attractions—from historic landmarks to breathtaking natural wonders.
+          You’ll discover if these spots are kid-friendly, how accessible they
+          are for travelers with special needs or older adults, and when they’re
+          open. We’ve also included estimated entry costs to help you plan your
+          budget. Whether you're building a travel itinerary or just curious,
+          this guide brings you insider info in one quick glance. Start
+          exploring and get inspired!
+        </p>
+      </div>
+
+      <table id="top-cities-table">
+        <thead>
+          <tr>
+            <th data-translate="table_city">City</th>
+            <th data-translate="table_attraction">Attraction</th>
+            <th data-translate="table_description">Description</th>
+            <th data-translate="table_kid_friendly">Kid Friendly</th>
+            <th data-translate="table_accessibility">Accessibility</th>
+            <th data-translate="table_hours">Hours</th>
+            <th data-translate="table_cost">Cost</th>
+          </tr>
+        </thead>
+        <tbody id="city-table-body"></tbody>
+      </table>
     </main>
+
     <footer>
-        <p>&copy; 2025 Silvia Ferran</p>
+      <p>&copy; 2025 Silvia Ferran</p>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="js/country.js"></script>
-
-</body>
-
+    <script type="module" src="/js/translate.js" defer></script>
+  </body>
 </html>

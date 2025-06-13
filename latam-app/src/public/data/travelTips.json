@@ -1,0 +1,1201 @@
+{
+  "Colombia": {
+    "cities": [
+      {
+        "name": "Bogotá",
+        "sights": [
+          {
+            "name": "Monserrate",
+            "description": "A historic hilltop sanctuary offering panoramic views of Bogotá. Accessible by cable car or funicular, it’s a spiritual and scenic landmark.",
+            "kidFriendly": true,
+            "accessibility": "Moderate – cable car and funicular available, but steep areas at the top",
+            "hours": "Monday to Saturday: 6:30 AM - 11:30 PM; Sunday: 5:30 AM - 6:30 PM",
+            "cost": "USD $5.22 round trip (cable car/funicular)"
+          },
+          {
+            "name": "Museo del Oro",
+            "description": "A renowned museum showcasing pre-Columbian gold artifacts. Its interactive exhibits captivate visitors of all ages.",
+            "kidFriendly": true,
+            "accessibility": "High – wheelchair access and guided tours available",
+            "hours": "Tuesday to Saturday: 9 AM - 6 PM; Sunday: 10 AM - 4 PM",
+            "cost": "USD $0.89 (free on Sundays)"
+          }
+        ]
+      },
+      {
+        "name": "Cartagena",
+        "sights": [
+          {
+            "name": "Castillo San Felipe de Barajas",
+            "description": "A massive 17th-century fortress with strategic historical significance. Its tunnels and ramparts are a must-see for history enthusiasts.",
+            "kidFriendly": true,
+            "accessibility": "Low: uneven surfaces and many stairs",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "USD $5.56"
+          },
+          {
+            "name": "Ciudad Amurallada",
+            "description": "A vibrant walled city with colorful colonial architecture. Stroll through its cobblestone streets to soak in Cartagena’s charm.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: cobblestone streets but flat",
+            "hours": "Open 24 hours (shops and sites vary)",
+            "cost": "Free to explore, tour prices vary"
+          }
+        ]
+      },
+      {
+        "name": "Medellín",
+        "sights": [
+          {
+            "name": "Parque Explora",
+            "description": "An interactive science museum with engaging exhibits for kids. Its aquarium and outdoor areas are highlights for families.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps and accessible paths throughout",
+            "hours": "Tuesday to Sunday: 9 AM - 5:30 PM",
+            "cost": "USD $6.67"
+          },
+          {
+            "name": "Jardín Botánico",
+            "description": "A serene botanical garden showcasing Colombia’s biodiversity. Its tranquil paths are perfect for a relaxing walk.",
+            "kidFriendly": true,
+            "accessibility": "High – mostly flat and paved trails",
+            "hours": "Daily: 9 AM - 4:30 PM",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Santa Marta",
+        "sights": [
+          {
+            "name": "Parque Tayrona",
+            "description": "A stunning national park with pristine beaches and lush jungles. It’s ideal for nature lovers and adventurers.",
+            "kidFriendly": true,
+            "accessibility": "Low: requires walking and some hiking",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "USD $13.78 (foreigners), USD $5.78 (Colombians)"
+          },
+          {
+            "name": "Quinta de San Pedro Alejandrino",
+            "description": "A historic estate where Simón Bolívar spent his final days. Its gardens and museum offer a glimpse into Colombia’s past.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some uneven paths",
+            "hours": "Daily: 9 AM - 5:30 PM",
+            "cost": "USD $3.11"
+          }
+        ]
+      },
+      {
+        "name": "Villa de Leyva",
+        "sights": [
+          {
+            "name": "Plaza Mayor",
+            "description": "One of Colombia’s largest cobblestone plazas, surrounded by colonial buildings. It’s a lively spot for cultural events and relaxation.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: cobblestone may be difficult for wheelchairs",
+            "hours": "Open 24 hours",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo El Fósil",
+            "description": "A small museum housing a massive Kronosaurus fossil. It’s a fascinating stop for dinosaur enthusiasts.",
+            "kidFriendly": true,
+            "accessibility": "High: small museum with flat access",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $2.22"
+          }
+        ]
+      }
+    ]
+  },
+  "Venezuela": {
+    "cities": [
+      {
+        "name": "Caracas",
+        "sights": [
+          {
+            "name": "Parque Nacional El Ávila (Waraira Repano)",
+            "description": "A majestic national park with hiking trails and stunning city views. The cable car ride to the top is a highlight.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: teleférico is accessible, trails are not",
+            "hours": "Tuesday to Sunday: 9 AM - 6 PM",
+            "cost": "USD $10 for cable car round trip"
+          },
+          {
+            "name": "Museo de los Niños",
+            "description": "A hands-on museum designed for kids to explore science and art. It’s a fun and educational family outing.",
+            "kidFriendly": true,
+            "accessibility": "High: built for children, mostly accessible",
+            "hours": "Tuesday to Sunday: 9 AM - 5 PM",
+            "cost": "USD $3"
+          }
+        ]
+      },
+      {
+        "name": "Mérida",
+        "sights": [
+          {
+            "name": "Teleférico de Mérida (Mukumbarí)",
+            "description": "The world’s highest and longest cable car, offering breathtaking Andean views. It’s an unforgettable journey to Pico Espejo.",
+            "kidFriendly": true,
+            "accessibility": "High: accessible cable cars and visitor stations",
+            "hours": "Wednesday to Sunday: 8 AM - 4 PM",
+            "cost": "USD $25"
+          },
+          {
+            "name": "Parque Los Aleros",
+            "description": "A cultural theme park recreating traditional Venezuelan life. Its colorful displays and activities charm visitors.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some steep paths",
+            "hours": "Friday to Sunday: 10 AM - 5 PM",
+            "cost": "USD $5"
+          }
+        ]
+      },
+      {
+        "name": "Maracaibo",
+        "sights": [
+          {
+            "name": "Basilica de Nuestra Señora de Chiquinquirá",
+            "description": "A revered religious site dedicated to Venezuela’s patron saint. Its ornate interior draws pilgrims and tourists alike.",
+            "kidFriendly": true,
+            "accessibility": "High: flat entry, benches for resting",
+            "hours": "Daily: 6 AM - 8 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Vereda del Lago Park",
+            "description": "A scenic lakeside park perfect for outdoor activities. Its wide paths and playgrounds are great for families.",
+            "kidFriendly": true,
+            "accessibility": "High: wide walkways, outdoor activities",
+            "hours": "Daily: 5 AM - 9 PM",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Puerto La Cruz",
+        "sights": [
+          {
+            "name": "Parque Nacional Mochima",
+            "description": "A coastal paradise with crystal waters and diverse marine life. Boat tours reveal its hidden beaches and islands.",
+            "kidFriendly": true,
+            "accessibility": "Low: mostly beach and boat access, not adapted for special needs",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "Boat tours USD $30"
+          },
+          {
+            "name": "Playa Conoma",
+            "description": "A tranquil beach ideal for swimming and relaxation. Its natural beauty is perfect for a laid-back day.",
+            "kidFriendly": true,
+            "accessibility": "Low: natural beach area with no adapted infrastructure",
+            "hours": "Open access all day",
+            "cost": "Free (plus optional transport/parking)"
+          }
+        ]
+      },
+      {
+        "name": "Ciudad Bolívar",
+        "sights": [
+          {
+            "name": "Casco Histórico",
+            "description": "A well-preserved colonial district along the Orinoco River. Its colorful buildings and museums tell Venezuela’s story.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some steep paths",
+            "hours": "Open 24 hours (museum hours vary)",
+            "cost": "Free to explore"
+          },
+          {
+            "name": "Museo de Arte Jesús Soto",
+            "description": "A modern art museum showcasing kinetic works by Jesús Soto. Its interactive exhibits fascinate art lovers.",
+            "kidFriendly": true,
+            "accessibility": "High: museum is mostly accessible",
+            "hours": "Tuesday to Sunday: 9 AM - 5 PM",
+            "cost": "Free"
+          }
+        ]
+      }
+    ]
+  },
+  "Panama": {
+    "cities": [
+      {
+        "name": "Panamá City",
+        "sights": [
+          {
+            "name": "Canal de Panamá Centro de Visitantes de Miraflores",
+            "description": "A visitor center showcasing the Panama Canal’s engineering marvel. Watch ships pass through the locks up close.",
+            "kidFriendly": true,
+            "accessibility": "High: elevators, ramps, accessible restrooms",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "USD $10 (adults), $5 (children), discounts available"
+          },
+          {
+            "name": "Casco Antiguo",
+            "description": "A historic district with charming colonial architecture. Its vibrant streets are filled with cafes and museums.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: cobblestone streets, but several adapted areas",
+            "hours": "Open all day (restaurants and museums vary)",
+            "cost": "Free to walk, museums from USD $3"
+          }
+        ]
+      },
+      {
+        "name": "Boquete",
+        "sights": [
+          {
+            "name": "Sendero de los Quetzales",
+            "description": "A scenic hiking trail through lush cloud forests. It’s a haven for birdwatchers seeking the elusive quetzal.",
+            "kidFriendly": true,
+            "accessibility": "Low: natural trail, not wheelchair-accessible",
+            "hours": "Daily: 7 AM - 5 PM",
+            "cost": "USD $5 entry"
+          },
+          {
+            "name": "Jardín Botánico El Explorador",
+            "description": "A whimsical garden blending art and nature. Its quirky sculptures and plants delight visitors of all ages.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: stone and dirt paths, some slopes",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $5 (adults), $2 (children)"
+          }
+        ]
+      },
+      {
+        "name": "Bocas del Toro",
+        "sights": [
+          {
+            "name": "Isla Bastimentos – Playa Red Frog",
+            "description": "A pristine beach named after its tiny red frogs. Accessible by boat, it’s perfect for swimming and relaxation.",
+            "kidFriendly": true,
+            "accessibility": "Low: boat access, sandy paths",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "USD $5 entry + boat transport (USD $10)"
+          },
+          {
+            "name": "Parque Marino Isla Bastimentos",
+            "description": "A marine park with vibrant coral reefs and clear waters. Snorkeling tours reveal its rich biodiversity.",
+            "kidFriendly": true,
+            "accessibility": "Low: boat transport, not adapted",
+            "hours": "Daily: 8 AM - 4 PM",
+            "cost": "USD $10–15 (organized tours)"
+          }
+        ]
+      },
+      {
+        "name": "David",
+        "sights": [
+          {
+            "name": "Parque Cervantes",
+            "description": "A central park ideal for leisurely strolls and people-watching. Its open spaces are great for families.",
+            "kidFriendly": true,
+            "accessibility": "High: flat with benches",
+            "hours": "Open 24 hours",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo de Historia Natural José de Obaldía",
+            "description": "A small museum displaying local archaeological finds. It offers a quick dive into Chiriquí’s history.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: old building with some barriers",
+            "hours": "Monday to Friday: 8 AM - 4 PM",
+            "cost": "USD $2–3"
+          }
+        ]
+      },
+      {
+        "name": "Colón",
+        "sights": [
+          {
+            "name": "Fuerte San Lorenzo",
+            "description": "A UNESCO-listed colonial fort overlooking the Caribbean. Its ruins tell tales of pirate battles and conquests.",
+            "kidFriendly": true,
+            "accessibility": "Low: uneven terrain and stairs",
+            "hours": "Daily: 8 AM - 4 PM",
+            "cost": "USD $5 (entry + national park toll)"
+          },
+          {
+            "name": "Zona Libre de Colón",
+            "description": "A massive duty-free shopping zone for bargain hunters. Its modern facilities cater to international visitors.",
+            "kidFriendly": false,
+            "accessibility": "High: modern infrastructure in malls",
+            "hours": "Monday to Friday: 8 AM - 5 PM",
+            "cost": "Free (shopping only)"
+          }
+        ]
+      }
+    ]
+  },
+  "Argentina": {
+    "cities": [
+      {
+        "name": "Buenos Aires",
+        "sights": [
+          {
+            "name": "Teatro Col\u00f3n",
+            "description": "One of the world\u2019s most renowned opera houses, known for its architecture and acoustics. Guided tours available.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 elevators and ramps available",
+            "hours": "Daily: 10 AM - 4 PM (Tours every 15 mins)",
+            "cost": "USD $10.00"
+          },
+          {
+            "name": "La Boca & Caminito",
+            "description": "A colorful neighborhood filled with street art, tango dancers, and local craft markets.",
+            "kidFriendly": true,
+            "accessibility": "Moderate \u2013 cobblestone streets and some uneven areas",
+            "hours": "Open 24 hours (shops vary)",
+            "cost": "Free to explore"
+          }
+        ]
+      },
+      {
+        "name": "Mendoza",
+        "sights": [
+          {
+            "name": "Parque General San Mart\u00edn",
+            "description": "A large urban park ideal for relaxing walks, rowing, and scenic viewpoints.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 paved paths and benches throughout",
+            "hours": "Daily: 7 AM - 9 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Wine Tours & Vineyards",
+            "description": "Explore Argentina\u2019s famous Malbec wine region with guided tours and tastings.",
+            "kidFriendly": false,
+            "accessibility": "Moderate \u2013 depending on vineyard facilities",
+            "hours": "Hours vary by vineyard",
+            "cost": "USD $15\u2013$50 per tour"
+          }
+        ]
+      },
+      {
+        "name": "Bariloche",
+        "sights": [
+          {
+            "name": "Cerro Campanario",
+            "description": "A scenic hill with one of the best panoramic views in Patagonia. Chairlift available.",
+            "kidFriendly": true,
+            "accessibility": "Moderate \u2013 chairlift helps but summit is uneven",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $5.00"
+          },
+          {
+            "name": "Parque Nahuelito",
+            "description": "A dinosaur-themed park with life-size replicas and guided tours. A hit with families.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 mostly flat trails",
+            "hours": "Daily: 10 AM - 6 PM",
+            "cost": "USD $4.50"
+          }
+        ]
+      },
+      {
+        "name": "Salta",
+        "sights": [
+          {
+            "name": "Tren a las Nubes",
+            "description": "A scenic train journey through the Andes, offering unforgettable views and cultural insights.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 accessible train cars available",
+            "hours": "Tours run several times a week",
+            "cost": "USD $60.00"
+          },
+          {
+            "name": "Museo de Arqueolog\u00eda de Alta Monta\u00f1a (MAAM)",
+            "description": "Museum featuring Incan artifacts and preserved mummies found on Andean peaks.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 modern facility with ramps and elevators",
+            "hours": "Tuesday to Sunday: 11 AM - 7:30 PM",
+            "cost": "USD $3.00"
+          }
+        ]
+      },
+      {
+        "name": "Puerto Iguaz\u00fa",
+        "sights": [
+          {
+            "name": "Iguaz\u00fa Falls",
+            "description": "One of the world\u2019s most awe-inspiring natural wonders with multiple trails and viewpoints.",
+            "kidFriendly": true,
+            "accessibility": "High \u2013 accessible trails and viewing platforms",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "USD $16.00"
+          },
+          {
+            "name": "G\u00fcir\u00e1Oga Animal Refuge",
+            "description": "A wildlife rescue center focused on local fauna conservation and education.",
+            "kidFriendly": true,
+            "accessibility": "Moderate \u2013 some uneven paths",
+            "hours": "Daily: 9 AM - 6 PM",
+            "cost": "USD $4.00"
+          }
+        ]
+      }
+    ]
+  },
+  "Ecuador": {
+    "cities": [
+      {
+        "name": "Quito",
+        "sights": [
+          {
+            "name": "Mitad del Mundo",
+            "description": "A monument marking the equatorial line with interactive exhibits. It’s a unique spot to straddle both hemispheres.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps, accessible restrooms, signage",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $5 (adults), $2.50 (children, seniors)"
+          },
+          {
+            "name": "Teleférico de Quito",
+            "description": "A cable car ride to 4,100 meters with stunning Andean views. The summit offers trails and photo opportunities.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: accessible to summit, trails not",
+            "hours": "Monday to Friday: 9 AM - 6 PM; Weekends: 8 AM - 7 PM",
+            "cost": "USD $8.50 (adults), $6.50 (children)"
+          }
+        ]
+      },
+      {
+        "name": "Guayaquil",
+        "sights": [
+          {
+            "name": "Malecón 2000",
+            "description": "A lively riverfront promenade with gardens and playgrounds. It’s a hub for dining and cultural events.",
+            "kidFriendly": true,
+            "accessibility": "High: fully adapted",
+            "hours": "Daily: 6 AM - 10 PM",
+            "cost": "Free (internal attractions vary)"
+          },
+          {
+            "name": "Parque Histórico de Guayaquil",
+            "description": "A park blending history, nature, and wildlife exhibits. It’s a great spot for learning about coastal Ecuador.",
+            "kidFriendly": true,
+            "accessibility": "High: wide paths, wheelchairs available",
+            "hours": "Wednesday to Sunday: 9 AM - 4 PM",
+            "cost": "Free, suggested donation"
+          }
+        ]
+      },
+      {
+        "name": "Cuenca",
+        "sights": [
+          {
+            "name": "Museo Pumapungo",
+            "description": "A museum showcasing Ecuadorian archaeology and ethnology. Its outdoor ruins add a historical dimension.",
+            "kidFriendly": true,
+            "accessibility": "High: indoor and outdoor areas adapted",
+            "hours": "Tuesday to Friday: 8 AM - 5 PM; Saturday: 9 AM - 1 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Catedral Nueva de Cuenca",
+            "description": "An iconic cathedral with striking blue domes. Its grand interior is a masterpiece of colonial architecture.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: ground floor accessible, dome climb not",
+            "hours": "Daily: 8 AM - 8 PM",
+            "cost": "Free admission; dome climb USD $2"
+          }
+        ]
+      },
+      {
+        "name": "Baños de Agua Santa",
+        "sights": [
+          {
+            "name": "Cascada Pailón del Diablo",
+            "description": "A dramatic waterfall with a thrilling suspension bridge. Its misty trails offer an adventurous experience.",
+            "kidFriendly": true,
+            "accessibility": "Low: stairs and uneven paths",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "USD $2"
+          },
+          {
+            "name": "Casa del Árbol (Columpio del Fin del Mundo)",
+            "description": "A famous treehouse with a swing overlooking a volcano. It’s a thrilling spot for photos and fun.",
+            "kidFriendly": true,
+            "accessibility": "Low: uneven paths and hilly terrain",
+            "hours": "Daily: 7 AM - 6 PM",
+            "cost": "USD $1"
+          }
+        ]
+      },
+      {
+        "name": "Otavalo",
+        "sights": [
+          {
+            "name": "Mercado de Otavalo",
+            "description": "A vibrant indigenous market famous for textiles and crafts. It’s busiest on Saturdays, buzzing with culture.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: stone and dirt paths, some slopes",
+            "hours": "Daily, main activity: Saturday 7 AM - 5 PM",
+            "cost": "Free (depends on purchases)"
+          },
+          {
+            "name": "Laguna de Cuicocha",
+            "description": "A stunning crater lake with scenic boat rides. Its surrounding trails offer breathtaking views of the Andes.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: accessible to dock, trails not adapted",
+            "hours": "Daily: 8 AM - 4 PM",
+            "cost": "USD $3–5 for boat ride"
+          }
+        ]
+      }
+    ]
+  },
+  "Peru": {
+    "cities": [
+      {
+        "name": "Lima",
+        "sights": [
+          {
+            "name": "Circuito Mágico del Agua",
+            "description": "A dazzling park with illuminated water fountains. Evening shows create a magical family-friendly atmosphere.",
+            "kidFriendly": true,
+            "accessibility": "High: paved paths, adapted restrooms",
+            "hours": "Tuesday to Sunday: 3 PM - 10 PM",
+            "cost": "USD $1"
+          },
+          {
+            "name": "Museo Larco",
+            "description": "A museum housing an extensive pre-Columbian art collection. Its lush gardens and exhibits are captivating.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps and accessible rooms",
+            "hours": "Daily: 10 AM - 7 PM",
+            "cost": "USD $9 (adults), $4.25 (students), free for children"
+          }
+        ]
+      },
+      {
+        "name": "Cusco",
+        "sights": [
+          {
+            "name": "Sacsayhuamán",
+            "description": "An ancient Incan fortress with massive stone walls. Its hilltop location offers sweeping views of Cusco.",
+            "kidFriendly": true,
+            "accessibility": "Low: uneven surfaces and slopes",
+            "hours": "Daily: 7 AM - 5:30 PM",
+            "cost": "Included in Tourist Ticket: USD $17.50–$32.50"
+          },
+          {
+            "name": "Centro Histórico y Plaza de Armas",
+            "description": "Cusco’s vibrant heart, surrounded by colonial architecture. The plaza is perfect for soaking in local culture.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: cobblestone streets, some flat areas",
+            "hours": "Open all day",
+            "cost": "Free (church visits may cost)"
+          }
+        ]
+      },
+      {
+        "name": "Arequipa",
+        "sights": [
+          {
+            "name": "Monasterio de Santa Catalina",
+            "description": "A colorful 16th-century convent with serene courtyards. Its vibrant walls and history captivate visitors.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some uneven areas",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $12 (adults), $6.25 (students)"
+          },
+          {
+            "name": "Mirador de Yanahuara",
+            "description": "A scenic lookout with arches framing volcanic views. It’s a peaceful spot for photos and relaxation.",
+            "kidFriendly": true,
+            "accessibility": "High: easy access, flat",
+            "hours": "Open all day",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Puno",
+        "sights": [
+          {
+            "name": "Islas Uros",
+            "description": "Floating reed islands on Lake Titicaca, built by the Uros people. Tours offer a unique cultural experience.",
+            "kidFriendly": true,
+            "accessibility": "Low: boat access, unstable surfaces",
+            "hours": "Daily: 7 AM - 4 PM (typical tour)",
+            "cost": "USD $10–20 (tour)"
+          },
+          {
+            "name": "Museo Carlos Dreyer",
+            "description": "A small museum with pre-Incan artifacts and art. It’s a quick stop for history buffs in Puno.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: small building, some stairs",
+            "hours": "Monday to Saturday: 9 AM - 6 PM",
+            "cost": "USD $2.50"
+          }
+        ]
+      },
+      {
+        "name": "Iquitos",
+        "sights": [
+          {
+            "name": "Reserva Nacional Pacaya Samiria",
+            "description": "A vast Amazonian reserve teeming with wildlife. Guided tours reveal its rich biodiversity and rivers.",
+            "kidFriendly": true,
+            "accessibility": "Low: river access, jungle terrain",
+            "hours": "Daily: access via tour",
+            "cost": "USD $50–150 (guided tour)"
+          },
+          {
+            "name": "Casa de Fierro",
+            "description": "An iron house designed by Gustave Eiffel, a quirky landmark. It’s a quick stop in Iquitos’ historic center.",
+            "kidFriendly": true,
+            "accessibility": "High: flat access, small building",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "Free to view outside, entry varies by use"
+          }
+        ]
+      }
+    ]
+  },
+  "Bolivia": {
+    "cities": [
+      {
+        "name": "La Paz",
+        "sights": [
+          {
+            "name": "Teleférico de La Paz",
+            "description": "A modern cable car system with panoramic city views. It’s both a transport and a scenic attraction.",
+            "kidFriendly": true,
+            "accessibility": "High: stations with ramps and elevators",
+            "hours": "Daily: 5 AM - 11 PM",
+            "cost": "USD $0.50 per segment"
+          },
+          {
+            "name": "Valle de la Luna",
+            "description": "A surreal landscape of eroded rock formations. Its otherworldly trails are a photographer’s dream.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: narrow paths, some steps",
+            "hours": "Daily: 9 AM - 4 PM",
+            "cost": "USD $2.21 (foreigners), $1.10 (nationals)"
+          }
+        ]
+      },
+      {
+        "name": "Sucre",
+        "sights": [
+          {
+            "name": "Parque Cretácico",
+            "description": "A dinosaur park with life-sized models and fossil footprints. It’s a hit with kids and fossil fans.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: paved but sloped paths",
+            "hours": "Tuesday to Sunday: 9 AM - 5 PM",
+            "cost": "USD $4.41 (adults), $0.74–$1.47 (children)"
+          },
+          {
+            "name": "Casa de la Libertad",
+            "description": "A historic museum where Bolivia’s independence was declared. Its exhibits offer a deep dive into national history.",
+            "kidFriendly": true,
+            "accessibility": "High: well-preserved historic building",
+            "hours": "Tuesday to Saturday: 9 AM - 12 PM, 2:30 PM - 6:30 PM",
+            "cost": "USD $2.21 (adults), $0.74 (students), free Thursday afternoons"
+          }
+        ]
+      },
+      {
+        "name": "Santa Cruz de la Sierra",
+        "sights": [
+          {
+            "name": "Biocentro Güembé",
+            "description": "A nature resort with butterfly domes and lagoons. It’s a family-friendly spot for wildlife and relaxation.",
+            "kidFriendly": true,
+            "accessibility": "High: wide, accessible paths",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $14.71 (adults), $7.35 (children)"
+          },
+          {
+            "name": "Plaza 24 de Septiembre",
+            "description": "The city’s main square, bustling with local life. It’s surrounded by historic buildings and cafes.",
+            "kidFriendly": true,
+            "accessibility": "High: completely flat",
+            "hours": "Open 24 hours",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Potosí",
+        "sights": [
+          {
+            "name": "Cerro Rico (tours mineros)",
+            "description": "A historic silver mine offering intense guided tours. It’s a glimpse into Potosí’s colonial mining past.",
+            "kidFriendly": false,
+            "accessibility": "Low: narrow, dark, physically demanding",
+            "hours": "Daily: 8 AM - 4 PM (via agency)",
+            "cost": "USD $10–15 (guided tour)"
+          },
+          {
+            "name": "Casa Nacional de la Moneda",
+            "description": "A colonial mint turned museum with coin-making exhibits. It’s a fascinating stop for history buffs.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some stairs, assistance available",
+            "hours": "Tuesday to Saturday: 9 AM - 12:30 PM, 2:30 PM - 6 PM",
+            "cost": "USD $5.88 (foreigners), $2.21 (nationals)"
+          }
+        ]
+      },
+      {
+        "name": "Copacabana",
+        "sights": [
+          {
+            "name": "Isla del Sol",
+            "description": "A sacred island on Lake Titicaca with ancient ruins. Its trails offer stunning views and cultural insights.",
+            "kidFriendly": true,
+            "accessibility": "Low: requires hiking and stairs",
+            "hours": "Daily: 8 AM - 4 PM",
+            "cost": "USD $4 entry + transport"
+          },
+          {
+            "name": "Basílica de Nuestra Señora de Copacabana",
+            "description": "A revered pilgrimage site with a striking colonial design. Its courtyard hosts vibrant festivals.",
+            "kidFriendly": true,
+            "accessibility": "High: accessible with resting areas",
+            "hours": "Daily: 7 AM - 7 PM",
+            "cost": "Free"
+          }
+        ]
+      }
+    ]
+  },
+  "Brazil": {
+    "cities": [
+      {
+        "name": "Rio de Janeiro",
+        "sights": [
+          {
+            "name": "Cristo Redentor",
+            "description": "An iconic statue atop Corcovado with panoramic views. It’s a must-visit symbol of Rio’s spirit.",
+            "kidFriendly": true,
+            "accessibility": "High: elevators and ramps available",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "USD $17 including van transport"
+          },
+          {
+            "name": "Pão de Açúcar (Pan de Azúcar)",
+            "description": "A cable car ride to a stunning hilltop overlooking Rio’s beaches. Its vistas are breathtaking at sunset.",
+            "kidFriendly": true,
+            "accessibility": "High: accessible to summit",
+            "hours": "Daily: 8 AM - 7 PM",
+            "cost": "USD $25"
+          }
+        ]
+      },
+      {
+        "name": "São Paulo",
+        "sights": [
+          {
+            "name": "Parque Ibirapuera",
+            "description": "A sprawling urban park with lakes and museums. It’s São Paulo’s green oasis for recreation.",
+            "kidFriendly": true,
+            "accessibility": "High: wide paths, wheelchair rentals available",
+            "hours": "Daily: 5 AM - 12 AM",
+            "cost": "Free (museums inside may charge)"
+          },
+          {
+            "name": "Museo de Arte de São Paulo (MASP)",
+            "description": "A striking museum with a renowned art collection. Its glass structure is an architectural gem.",
+            "kidFriendly": true,
+            "accessibility": "High: elevators and accessible restrooms",
+            "hours": "Tuesday to Sunday: 10 AM - 6 PM",
+            "cost": "USD $12, free on Tuesdays"
+          }
+        ]
+      },
+      {
+        "name": "Foz do Iguaçu",
+        "sights": [
+          {
+            "name": "Cataratas do Iguaçu",
+            "description": "Awe-inspiring waterfalls surrounded by lush rainforest. Accessible trails offer close-up views of the cascades.",
+            "kidFriendly": true,
+            "accessibility": "High: adapted walkways, accessible transport",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $17, free for young children"
+          },
+          {
+            "name": "Parque das Aves",
+            "description": "A bird sanctuary with vibrant tropical species. Walkthrough aviaries make it immersive for all ages.",
+            "kidFriendly": true,
+            "accessibility": "High: accessible paths, adapted services",
+            "hours": "Daily: 8:30 AM - 4:30 PM",
+            "cost": "USD $16"
+          }
+        ]
+      },
+      {
+        "name": "Salvador de Bahía",
+        "sights": [
+          {
+            "name": "Pelourinho",
+            "description": "A UNESCO-listed historic district with colorful colonial buildings. Its vibrant streets pulse with music and culture.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: cobblestone streets, some ramps",
+            "hours": "Open all day (individual sites vary)",
+            "cost": "Free (museum entries optional)"
+          },
+          {
+            "name": "Elevador Lacerda",
+            "description": "An iconic elevator connecting Salvador’s upper and lower cities. It offers quick access and scenic views.",
+            "kidFriendly": true,
+            "accessibility": "High: adapted public elevator",
+            "hours": "Daily: 7 AM - 10 PM",
+            "cost": "USD $0.03"
+          }
+        ]
+      },
+      {
+        "name": "Brasília",
+        "sights": [
+          {
+            "name": "Catedral Metropolitana",
+            "description": "A futuristic cathedral designed by Oscar Niemeyer. Its unique architecture and stained glass are mesmerizing.",
+            "kidFriendly": true,
+            "accessibility": "High: street-level entry, spacious",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo Nacional Honestino Guimarães",
+            "description": "A dome-shaped museum with modern art and cultural exhibits. Its design is a Brasília architectural highlight.",
+            "kidFriendly": true,
+            "accessibility": "High: wheelchair-accessible",
+            "hours": "Tuesday to Sunday: 9 AM - 6 PM",
+            "cost": "Free"
+          }
+        ]
+      }
+    ]
+  },
+  "Paraguay": {
+    "cities": [
+      {
+        "name": "Asunción",
+        "sights": [
+          {
+            "name": "Costanera de Asunción",
+            "description": "A scenic riverfront promenade perfect for evening walks. It’s a lively spot with playgrounds and food stalls.",
+            "kidFriendly": true,
+            "accessibility": "High: wide, flat paths",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo del Barro",
+            "description": "A museum showcasing Paraguayan art and indigenous crafts. Its diverse collection is a cultural gem.",
+            "kidFriendly": true,
+            "accessibility": "High: adapted facilities",
+            "hours": "Tuesday to Saturday: 9 AM - 5:30 PM",
+            "cost": "USD $2"
+          }
+        ]
+      },
+      {
+        "name": "Encarnación",
+        "sights": [
+          {
+            "name": "Playa San José",
+            "description": "A popular beach along the Paraná River, great for families. Its boardwalk adds a festive vibe.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps and access from the boardwalk",
+            "hours": "Daily: 6 AM - 10 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Ruinas Jesuíticas de la Santísima Trinidad",
+            "description": "UNESCO-listed Jesuit ruins with well-preserved structures. Nighttime light shows enhance the experience.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: stone paths, some uneven areas",
+            "hours": "Daily: 7 AM - 7 PM",
+            "cost": "USD $3.50"
+          }
+        ]
+      },
+      {
+        "name": "Ciudad del Este",
+        "sights": [
+          {
+            "name": "Saltos del Monday",
+            "description": "A spectacular waterfall with viewing platforms and trails. It’s a serene escape near the city.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: stairs and walkways, some ramps",
+            "hours": "Daily: 8 AM - 5 PM",
+            "cost": "USD $3.50"
+          },
+          {
+            "name": "Shopping Paris y Museo 3D",
+            "description": "A modern mall with a fun 3D museum for interactive photos. It’s a great stop for families.",
+            "kidFriendly": true,
+            "accessibility": "High: modern building with elevators, accessible restrooms",
+            "hours": "Daily: 10 AM - 9 PM",
+            "cost": "Museum: USD $4, shopping free"
+          }
+        ]
+      },
+      {
+        "name": "San Bernardino",
+        "sights": [
+          {
+            "name": "Lago Ypacaraí",
+            "description": "A picturesque lake ideal for boating and picnics. Its shores are a popular summer getaway.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: boardwalk access, natural areas unpaved",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Mirador y Centro Histórico de San Bernardino",
+            "description": "A lookout and historic area with charming colonial vibes. It’s perfect for a relaxed stroll.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some areas with stairs",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Caacupé",
+        "sights": [
+          {
+            "name": "Basílica de Caacupé",
+            "description": "A major pilgrimage site with a grand, accessible basilica. It’s a spiritual center for Paraguayans.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps, wheelchair access",
+            "hours": "Daily: 6 AM - 8 PM",
+            "cost": "Free"
+          },
+          {
+            "name": "Cerro Cristo Rey",
+            "description": "A hilltop with a cross offering panoramic views. The hike up is rewarding for active visitors.",
+            "kidFriendly": true,
+            "accessibility": "Low: requires walking and climbing steps",
+            "hours": "Daily: 7 AM - 5 PM",
+            "cost": "Free"
+          }
+        ]
+      }
+    ]
+  },
+  "Chile": {
+    "cities": [
+      {
+        "name": "Santiago",
+        "sights": [
+          {
+            "name": "Cerro San Cristóbal",
+            "description": "A hilltop park with sweeping city views, accessible by funicular. Its zoo and gardens are family favorites.",
+            "kidFriendly": true,
+            "accessibility": "High: funicular and cable car access, adapted areas",
+            "hours": "9 AM - 7 PM",
+            "cost": "USD $4.44 (cable car), $3.33 (funicular)"
+          },
+          {
+            "name": "Museo Interactivo Mirador (MIM)",
+            "description": "A hands-on science museum with engaging exhibits for kids. It’s a dynamic space for curious minds.",
+            "kidFriendly": true,
+            "accessibility": "High: modern, accessible",
+            "hours": "Saturday: 9 AM - 7:30",
+            "cost": "USD $4.56 (children), $5.56 (adults)"
+          }
+        ]
+      },
+      {
+        "name": "Valparaíso",
+        "sights": [
+          {
+            "name": "Ascensor Artillería",
+            "description": "A historic funicular offering coastal views of Valparaíso. It’s a charming ride through the city’s hills.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: funicular, but steep surrounding streets",
+            "hours": "7 AM - 10 PM",
+            "cost": "USD $0.11–$0.33"
+          },
+          {
+            "name": "La Sebastiana (casa de Pablo Neruda)",
+            "description": "Pablo Neruda’s eclectic hilltop home, now a museum. Its quirky decor and ocean views inspire.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: partial access, interior stairs",
+            "hours": "Tuesday to Sunday: 10 AM - 6 PM",
+            "cost": "USD $8.89 (adults), $2.78 (children)"
+          }
+        ]
+      },
+      {
+        "name": "Puerto Varas",
+        "sights": [
+          {
+            "name": "Lago Llanquihue",
+            "description": "A serene lake with volcanic views, ideal for kayaking or strolls. Its waterfront is a gateway to Patagonia.",
+            "kidFriendly": true,
+            "accessibility": "High: paved lakeside paths",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo Pablo Fierro",
+            "description": "A quirky museum of regional artifacts in a rustic setting. It’s a small but charming stop.",
+            "kidFriendly": true,
+            "accessibility": "Low: old structure with stairs, narrow paths",
+            "hours": "Monday to Saturday: 10 AM - 6 PM",
+            "cost": "Voluntary contribution"
+          }
+        ]
+      },
+      {
+        "name": "San Pedro de Atacama",
+        "sights": [
+          {
+            "name": "Valle de la Luna",
+            "description": "A lunar-like desert with salt flats and dramatic dunes. Sunset tours highlight its otherworldly beauty.",
+            "kidFriendly": true,
+            "accessibility": "Low: dirt paths, not wheelchair-accessible",
+            "hours": "Daily: 9 AM - 5 PM",
+            "cost": "USD $12 (foreigners), $4.44 (Chileans)"
+          },
+          {
+            "name": "Laguna Cejar",
+            "description": "A salt lagoon where you can float due to high salinity. Its turquoise waters are a desert marvel.",
+            "kidFriendly": true,
+            "accessibility": "Low: natural access, no adapted infrastructure",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "USD $16.67"
+          }
+        ]
+      },
+      {
+        "name": "Pucón",
+        "sights": [
+          {
+            "name": "Termas Geométricas",
+            "description": "Hot springs with striking red pools amid lush forests. It’s a rejuvenating escape in nature.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: wooden paths with stairs, well-marked",
+            "hours": "Daily: 9 AM - 8 PM",
+            "cost": "USD $35"
+          },
+          {
+            "name": "Volcán Villarrica (mirador y base)",
+            "description": "An active volcano with stunning views from its base. Guided tours offer adventure for thrill-seekers.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: vehicle access to some points",
+            "hours": "Daily: 8 AM - 6 PM",
+            "cost": "Free for lookout; guided tours from USD $50"
+          }
+        ]
+      }
+    ]
+  },
+  "Uruguay": {
+    "cities": [
+      {
+        "name": "Montevideo",
+        "sights": [
+          {
+            "name": "Rambla de Montevideo",
+            "description": "A scenic coastal promenade perfect for biking or walking. It offers stunning views of the Río de la Plata.",
+            "kidFriendly": true,
+            "accessibility": "High: wide, flat paths",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo del Carnaval",
+            "description": "A vibrant museum celebrating Uruguay’s carnival traditions. Interactive exhibits make it fun for all ages.",
+            "kidFriendly": true,
+            "accessibility": "High: modern, accessible facilities",
+            "hours": "Tuesday to Sunday: 10 AM - 5 PM",
+            "cost": "USD $4, free for minors"
+          }
+        ]
+      },
+      {
+        "name": "Punta del Este",
+        "sights": [
+          {
+            "name": "La Mano (Los Dedos)",
+            "description": "An iconic hand sculpture emerging from the sand. It’s a must-see landmark on Brava Beach.",
+            "kidFriendly": true,
+            "accessibility": "High: direct access from sidewalk",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Museo Ralli",
+            "description": "A free art museum with Latin American and European works. Its serene setting is ideal for art lovers.",
+            "kidFriendly": true,
+            "accessibility": "High: flat, adapted building",
+            "hours": "Wednesday to Sunday: 2 PM - 6 PM (summer)",
+            "cost": "Free"
+          }
+        ]
+      },
+      {
+        "name": "Colonia del Sacramento",
+        "sights": [
+          {
+            "name": "Barrio Histórico",
+            "description": "A UNESCO-listed colonial town with cobblestone streets. Its quaint charm and riverfront make it a delightful stop.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: many cobblestone streets",
+            "hours": "Open all day",
+            "cost": "Free (museum entries from USD $0.25)"
+          },
+          {
+            "name": "Museo Portugués",
+            "description": "A small museum showcasing Portuguese colonial artifacts. It’s a quick dive into Colonia’s history.",
+            "kidFriendly": true,
+            "accessibility": "Low: internal stairs, old building",
+            "hours": "Tuesday to Sunday: 11 AM - 4:30 PM",
+            "cost": "Included in museum pass: USD $1.25–$2.50"
+          }
+        ]
+      },
+      {
+        "name": "Salto",
+        "sights": [
+          {
+            "name": "Termas del Daymán",
+            "description": "Relaxing hot springs with family-friendly pools. Its facilities include medical support for safety.",
+            "kidFriendly": true,
+            "accessibility": "High: ramps, adapted restrooms",
+            "hours": "Daily: 8 AM - 10 PM",
+            "cost": "USD $6.25 (adults), $3 (children)"
+          },
+          {
+            "name": "Acuamanía (parque acuático)",
+            "description": "A fun water park with slides and pools. It’s a summer hotspot for families.",
+            "kidFriendly": true,
+            "accessibility": "Moderate: some adapted areas",
+            "hours": "Daily (summer): 10 AM - 7 PM",
+            "cost": "USD $11.25 (adults), $7.50 (children)"
+          }
+        ]
+      },
+      {
+        "name": "Paysandú",
+        "sights": [
+          {
+            "name": "Costanera de Paysandú",
+            "description": "A peaceful riverside walkway along the Uruguay River. It’s great for family outings and sunset views.",
+            "kidFriendly": true,
+            "accessibility": "High: wide, accessible paths",
+            "hours": "Open all day",
+            "cost": "Free"
+          },
+          {
+            "name": "Teatro Florencio Sánchez",
+            "description": "A historic theater hosting cultural events. Guided tours reveal its architectural beauty.",
+            "kidFriendly": true,
+            "accessibility": "High: ramp, reserved space",
+            "hours": "Varies by program",
+            "cost": "Varies by event, guided tours low-cost or free"
+          }
+        ]
+      }
+    ]
+  }
+}

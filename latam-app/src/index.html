@@ -3,33 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Latinoamerica Learn & Go</title>
+    <title>Latinoamérica Learn & Go</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      defer
+    ></script>
+    <script type="module" src="/js/map.js" defer></script>
   </head>
+
   <body>
     <header>
-      <div class="brand">
-        <img src="/images/logo.png" alt="Latinoamérica Learn & Go logo" class="logo" />
-        <h1>Latinoamerica Learn & Go</h1>
-      </div>
-    </header>
-    <main>
-      <div id="map"></div>
-      <section id="search-section">
+      <div class="header-wrapper">
         <form id="country-form">
-          <input type="text" id="country-input" placeholder="Pick your next destination!" required>
-          <button type="submit">Let's Go</button>
+          <input
+            id="country-input"
+            type="text"
+            placeholder="Pick your next destination"
+            data-translate-placeholder="search_placeholder"
+          />
+          <button type="submit" data-translate="form_button">Let's Go</button>
         </form>
-        <div id="country-info"></div>
+        <div class="brand-center">
+          <img
+            src="/images/logo.png"
+            alt="Latinoamérica Learn & Go logo"
+            class="logo"
+          />
+          <h1 data-translate="site_title">Latinoamérica Learn & Go</h1>
+        </div>
+      </div>
+      <button
+        id="translate-toggle"
+        data-translate="toggle_button"
+        class="translate-btn"
+      >
+        🌐 Español
+      </button>
+    </header>
+
+    <main>
+      <section class="intro-text">
+        <p>
+          <strong data-translate="intro_text"
+            >Click on any country in our interactive map to start exploring
+            Latin America!</strong
+          >
+        </p>
+      </section>
+
+      <section class="info-section">
+        <div class="content-layout">
+          <div class="country-images">
+            <div class="rotating-img img-1" id="country-img-1">
+              <span class="caption">Brazil</span>
+            </div>
+            <div class="rotating-img img-2" id="country-img-2">
+              <span class="caption">Peru</span>
+            </div>
+            <div class="rotating-img img-3" id="country-img-3">
+              <span class="caption">Colombia</span>
+            </div>
+          </div>
+
+          <div class="circle-map">
+            <div id="map"></div>
+          </div>
+
+          <div class="sticky-notes">
+            <div class="sticky-note">
+              <h3 data-translate="quick_facts_heading">
+                You’ll Discover Quick Facts Like…
+              </h3>
+              <ul>
+                <li data-translate="li_population">Population</li>
+                <li data-translate="li_languages">Languages</li>
+                <li data-translate="li_currency">Currency</li>
+                <li data-translate="li_news">News</li>
+                <li data-translate="li_photos">Photos</li>
+              </ul>
+            </div>
+
+            <div class="sticky-note">
+              <h3 data-translate="top_cities_heading">
+                Check Out the Top 5 Must-See Cities!
+              </h3>
+              <ul>
+                <li data-translate="li_sights">Must-see sights</li>
+                <li data-translate="li_accessibility">Accessibility</li>
+                <li data-translate="li_hours">Operating hours</li>
+                <li data-translate="li_costs">Costs</li>
+                <li data-translate="li_wishlist">Wishlist feature</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
     <footer>
-      <p>&copy; 2025 Silvia Ferran</p>
+      <p>&copy; 2025 Silvia Ferran. All rights reserved.</p>
+      <p data-translate="footer_credit">
+        Project for BYU-Idaho WDD330 Web Development
+      </p>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script type="module" src="js/map.js"></script>
-
+    <script type="module" src="/js/translate.js" defer></script>
   </body>
 </html>

@@ -1,28 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Wishlist</title>
+    <title data-translate="wishlist_title">Country Wishlist</title>
     <link rel="stylesheet" href="./css/style.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="index.html"></a>Back</a>
-        <h1>Countries I Want to Visit</h1>
+      <div class="header-wrapper">
+        <div class="back-button">
+          <a href="index.html" data-translate="back_button">← Back</a>
+        </div>
+        <form id="country-form">
+          <input
+            type="text"
+            id="country-input"
+            placeholder="Pick your next destination!"
+            required
+            data-translate-placeholder="input_placeholder"
+          />
+          <button type="submit" data-translate="form_button">Let's Go</button>
+        </form>
+        <div class="brand-center">
+          <img
+            src="/images/logo.png"
+            alt="Latinoamérica Learn & Go logo"
+            class="logo"
+          />
+          <h1 data-translate="site_title">Latinoamérica Learn & Go</h1>
+        </div>
+      </div>
+      <button
+        id="translate-toggle"
+        class="translate-btn"
+        data-translate="toggle_button"
+      >
+        🌐 Español
+      </button>
     </header>
 
     <main>
-        <ul id="wishlist-list"></ul>
+      <div class="high">
+        <h2 data-translate="wishlist_heading">Travel Wishlist</h2>
+        <p data-translate="wishlist_description">
+          The "Travel Wishlist" button allows you to save your favorite Latin
+          American countries to explore later. By adding a country to your
+          wishlist, you can keep track of destinations that inspire you. We
+          invite you to take notes on what you love about each country, such as
+          its culture, landscapes, or cuisine. This feature helps you plan your
+          dream journey with personalized insights.
+        </p>
+      </div>
+
+      <ul id="wishlist-container"></ul>
     </main>
 
     <footer>
-        <p>&copy; 2025 Silvia Ferran</p>
+      <p>&copy; 2025 Silvia Ferran</p>
     </footer>
 
-    <script type="module" src="./js/wishlist.js"></script>
-</body>
-
+    <script type="module" src="js/wishlist.js"></script>
+    <script type="module" src="/js/translate.js" defer></script>
+  </body>
 </html>
