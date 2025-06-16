@@ -1,11 +1,14 @@
+// Import function to retrieve country data from the REST Countries API
 import { searchCountryByName } from "./RestCountries.mjs";
 
+// Wait for the page to fully load before running any logic
 let loadedCountry = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   initCountryPage();
 });
 
+// Main function to initialize the country page content
 async function initCountryPage() {
   const params = new URLSearchParams(window.location.search);
   const countryName = params.get("country");
@@ -25,6 +28,7 @@ async function initCountryPage() {
   }
 }
 
+// Displays country facts
 function displayCountryInfo(country) {
   const name = country.name?.common || "Unknown";
   const capital = country.capital?.[0] || "N/A";
@@ -45,6 +49,7 @@ function displayCountryInfo(country) {
     countryTitle.textContent = name;
   }
 
+  // Insert quick facts into sticky note section
   const quickFactsContainer = document.getElementById("quick-facts-content");
   if (quickFactsContainer) {
     quickFactsContainer.innerHTML = `
@@ -56,10 +61,14 @@ function displayCountryInfo(country) {
   }
 }
 
+// Event: Add country to wishlist and redirect to wishlist page
 document.getElementById("add-to-wishlist").addEventListener("click", () => {
   const params = new URLSearchParams(window.location.search);
-  const countryName = params.get("country");
+  let countryName = params.get("country");
   if (!countryName) return;
+
+  // Capitalize only the first letter
+  countryName = countryName.charAt(0).toUpperCase() + countryName.slice(1);
 
   const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
   if (!wishlist.includes(countryName)) {
@@ -70,6 +79,7 @@ document.getElementById("add-to-wishlist").addEventListener("click", () => {
   window.location.href = "wishlist.html";
 });
 
+// Rotates hero background images every 50 seconds using Unsplash API
 async function setHeroImages(countryName) {
   try {
     const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(countryName)}&orientation=landscape&client_id=He3g0nco3fHhMqKolj6dNCcjfdorOXCNmW1x0ueUBag&per_page=9`;
@@ -103,6 +113,7 @@ async function setHeroImages(countryName) {
   }
 }
 
+// Loads travel tips from local JSON file and renders Top 5 cities 
 async function loadTravelTips(countryName) {
   const currentLang = localStorage.getItem("lang") || "en";
   try {
@@ -170,8 +181,7 @@ async function loadTravelTips(countryName) {
         tableBody.appendChild(row);
       });
     });
-
-    // Re-translate table content if in Spanish
+    // Translate table if needed
     if (currentLang === "es" && typeof window.translatePage === "function") {
       window.translatePage("es");
     }
@@ -180,6 +190,7 @@ async function loadTravelTips(countryName) {
   }
 }
 
+// Fetches latest news articles using GNews API and lists them
 async function loadCountryNews(countryName) {
   const apiKey = "4689d3035f1deef5f7b65b365a990ebf";
   const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(countryName + " travel OR tourism")}&lang=en&max=3&token=${apiKey}`;
@@ -209,6 +220,7 @@ async function loadCountryNews(countryName) {
   }
 }
 
+// Loads weather forecast for the country's capital using WeatherAPI
 async function loadWeatherForecast(capitalCity) {
   const apiKey = "34f72d582c6149c7977171819252003";
   const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(capitalCity)}&days=7&aqi=no&alerts=no`;
@@ -245,7 +257,6 @@ async function loadWeatherForecast(capitalCity) {
   }
 }
 
-// Handle form search
 const form = document.querySelector("#country-form");
 form?.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -260,4 +271,4 @@ form?.addEventListener("submit", async (e) => {
 window.displayCountryInfo = displayCountryInfo;
 window.loadTravelTips = loadTravelTips;
 window.getLoadedCountry = () => loadedCountry;
-window.translatePage = translatePage;
+

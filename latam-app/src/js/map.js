@@ -1,8 +1,12 @@
+// Import helper function to fetch country images from Unsplash
 import { getCountryImage } from "./Unsplash.mjs";
+// Import Leaflet and its styles for the interactive map
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
+// Wait for DOM content to be fully loaded
 document.addEventListener("DOMContentLoaded", async () => {
+  // Handle the search form submission
   const form = document.querySelector("#country-form");
   const input = document.querySelector("#country-input");
 
@@ -15,11 +19,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     window.location.href = `country.html?country=${countryParam}`;
   });
 
+  // Disable map interactivity (static display only)
   const map = L.map("map", {
     zoomSnap: 0.1,
     zoomDelta: 0.1,
   }).setView([-20, -65], 3.2);
 
+  // Disable map interactivity (static display only)
   map.scrollWheelZoom.disable();
   map.dragging.disable();
   map.touchZoom.disable();
@@ -28,6 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   map.keyboard.disable();
   map.zoomControl.remove();
 
+  // Load a light basemap layer from Carto
   L.tileLayer(
     "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
     {
@@ -108,12 +115,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     },
   }).addTo(map);
 
+  // Prepare containers to hold the rotating country images
   const imgContainers = [
     document.getElementById("country-img-1"),
     document.getElementById("country-img-2"),
     document.getElementById("country-img-3"),
   ];
 
+  // Function to rotate featured country images every 50 seconds
   async function rotateCountryImages() {
     const countries = [
       "Brazil",
@@ -153,6 +162,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     let index = 0;
 
+    // Updates the image containers with the next 3 countries
     function updateImages() {
       const currentCountries = countries.slice(index, index + 3);
 
@@ -166,6 +176,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             container.style.backgroundImage = `url('${imgObj.url}')`;
             container.setAttribute("aria-label", imgObj.alt || country);
 
+
+            // Add or update caption overlay
             let caption = container.querySelector(".caption");
             if (!caption) {
               caption = document.createElement("div");
@@ -186,5 +198,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     setInterval(updateImages, 50000); // rotate every 50 seconds
   }
 
+  // Start the rotating image feature
   rotateCountryImages();
 });

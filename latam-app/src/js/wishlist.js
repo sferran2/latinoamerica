@@ -1,15 +1,18 @@
+// Import function to fetch multiple images for a country from Unsplash
 import { getCountryImages } from "./Unsplash.mjs";
 
+// Main function to render the wishlist from localStorage
 function loadWishlist() {
   const container = document.getElementById("wishlist-container");
   if (!container) return;
 
+  // Retrieve saved wishlist or initialize with an empty array
   const saved = JSON.parse(localStorage.getItem("wishlist")) || [];
   container.innerHTML = "";
 
   if (saved.length === 0) {
     container.innerHTML =
-      '<p data-translate="empty_wishlist">Your wishlist is empty. Start exploring!</p>';
+      '<p class="empty-message" data-translate="empty_wishlist">Your wishlist is empty. Start exploring!</p>';
     return;
   }
 
@@ -39,7 +42,7 @@ function loadWishlist() {
 
     container.appendChild(wrapper);
 
-    // ✅ Load 4 unique images
+    // Load and set 4 background images from Unsplash
     try {
       const urls = await getCountryImages(country, 4);
       urls.forEach((url, index) => {
@@ -54,7 +57,7 @@ function loadWishlist() {
       console.warn(`Failed to load images for ${country}`, error);
     }
 
-    // ✅ Notes
+    // Notes section - load saved notes from localStorage
     const noteKey = `note-${country}`;
     const textarea = document.getElementById(`note-${country}`);
     const statusEl = document.getElementById(`status-${country}`);
@@ -72,7 +75,7 @@ function loadWishlist() {
       }, 300);
     });
 
-    // 🗑 Remove
+    // Remove country from wishlist and refresh list
     wrapper.querySelector(".remove-btn").addEventListener("click", () => {
       const updated = saved.filter((c) => c !== country);
       localStorage.setItem("wishlist", JSON.stringify(updated));
@@ -81,6 +84,7 @@ function loadWishlist() {
     });
   });
 }
-
+// Initialize the wishlist view on page load
 loadWishlist();
+// Expose the translation function globally if needed
 window.translatePage = translatePage;
